@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jquery": true
+  },
+  "globals": {
+    "app": false,
+    "storageSession": false,
+    "storageLocal": false
+  },
+  "plugins": [
+    "html"
+  ],
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-mixed-spaces-and-tabs": [
+      "error",
+      "smart-tabs"
+    ],
+    "space-before-function-paren": [
+      "off"
+    ],
+    "indent": [
+      "off"
+    ],
+    "linebreak-style": [
+      "off"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "one-var": [
+      "error",
+      "consecutive"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}
